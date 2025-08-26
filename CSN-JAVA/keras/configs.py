@@ -8,15 +8,15 @@ def get_config():
             'train_apis': 'train.apiseq.pkl',
             'train_sbts': 'train.sbt.pkl',
             'train_desc': 'train.desc.pkl',
-            'train_sim_desc': 'train_IR_merged1_desc.pkl',
+            'train_sim_desc': 'train_IR_code_desc.pkl',
             # valid data
             'valid_tokens': 'test.tokens.pkl',
             'valid_names': 'test.methodname.pkl',
             'valid_apis': 'test.apiseq.pkl',
             'valid_sbts': 'test.sbt.pkl',
             'valid_desc': 'test.desc.pkl',
-            'valid_sim_desc':'test_IR_merged1_desc.pkl',
-            'use_codebase':'../test_source.txt',
+            'valid_sim_desc':'test_IR_code_desc.pkl',
+            'use_codebase':'test_source.txt',
             'use_codevecs':'../use.codevecs.normalized.h5',
                    
             #parameters

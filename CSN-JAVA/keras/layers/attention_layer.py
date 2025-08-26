@@ -23,8 +23,6 @@ class AttentionLayer(Layer):
         # inputs.shape = (batch_size, time_steps, seq_len)
         x = K.permute_dimensions(inputs, (0, 2, 1))
         # x.shape = (batch_size, seq_len, time_steps)
-        print("x:",x.shape)
-        print("w:",self.W.shape)
         a = K.softmax(K.tanh(K.dot(x, self.W) + self.b))
         outputs = K.permute_dimensions(a * x, (0, 2, 1))
         # outputs = K.sum(outputs, axis=1)

@@ -17,7 +17,7 @@ def get_config():
             'valid_desc': 'test.desc.pkl',
             'valid_sim_desc': 'test_IR_code_desc.pkl',
             #use data (computing code vectors)
-            'use_codebase':'../test_source.txt',#'use.rawcode.h5'
+            'use_codebase':'test_source.txt',#'use.rawcode.h5'
             #results data(code vectors)            
             'use_codevecs':'../use.codevecs.normalized.h5',#'use.codevecs.h5',
                    
